@@ -34,6 +34,19 @@
           {{ block.settings.banner-text }}
         </h1>
       </div>
+      <div class="banner-title">
+        <h1 class="banner-title-text">
+          {{ block.settings.banner-text }}
+        </h1>
+      </div>
+      <div class="banner-button">
+        <button class="button-text">
+          {{ block.settings.banner-button-text }}
+          <span class="arrow-svg-wrapper">
+            {{- 'button-arrow.svg' | inline_asset_content -}}
+          </span>
+        </button>
+      </div>
     </div>
   {% endfor %}
 </div>
