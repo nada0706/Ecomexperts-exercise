@@ -63,7 +63,16 @@
         <p class="paragraph-text">
           {{ block.settings.banner-paragraph-text }}
         </p>
+        <button class="button-text">
+          {{ block.settings.banner-button-text }}
+          <span class="arrow-svg-wrapper">
+            {{- 'button-arrow.svg' | inline_asset_content -}}
+          </span>
+        </button>
       </div>
+      <span class="banner-image">
+        {{ 'image-banner.svg' | asset_url }}
+      </span>
     </div>
   {% endfor %}
 </div>
