@@ -313,7 +313,7 @@
       {{ content_for_layout }}
     </main>
 
-    {% unless page_title == 'tisso-visson' %}
+    {% unless template.name == 'page.tisso-visson' %}
       {% sections 'footer-group' %}
     {% endunless %}
 
