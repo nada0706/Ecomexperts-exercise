@@ -313,9 +313,7 @@
       {{ content_for_layout }}
     </main>
 
-    {% unless template.name == 'page.tisso-visson' %}
-      {% sections 'footer-group' %}
-    {% endunless %}
+    {% sections 'footer-group' %}
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
