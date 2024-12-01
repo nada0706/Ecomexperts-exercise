@@ -2,7 +2,15 @@
   <!-- first section of the banner  -->
   {% for block in section.blocks %}
     <div class="banner-section-1">
-      
+      <div class="banner-logo">
+        <div class="mobile-dropdown">
+          <button class="dropbtn">
+            <span class="dropbtn-icon">
+              {{- 'mobile-dropdown.svg' | inline_asset_content -}}
+            </span>
+          </button>
+        </div>
+      </div>
     </div>
   {% endfor %}
 </div>
