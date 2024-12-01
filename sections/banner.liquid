@@ -13,6 +13,20 @@
             <div class="dropdown-exit">
               {{- 'icon-exit.svg' | inline_asset_content -}}
             </div>
+            <div class="dropdown-item">
+              <div class="banner-title">
+                <h1 class="banner-title-text">
+                  {{ block.settings.banner-text }}
+                </h1>
+              </div>
+            </div>
+            <div class="dropdown-item">
+              <button class="button-text">
+                <span class="arrow-svg-wrapper">
+                  {{- 'button-arrow.svg' | inline_asset_content -}}
+                </span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
