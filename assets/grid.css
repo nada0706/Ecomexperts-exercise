@@ -76,6 +76,15 @@
   height: 100px;
 }
 
+.addToCart-btn {
+  background-color: black;
+  color: white;
+  height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
 
 
 
