@@ -4,3 +4,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 19px;
 }
+
+.grid-image {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
