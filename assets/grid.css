@@ -49,6 +49,13 @@
   width: 100%;
 }
 
+.product-info {
+  align-items: left;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
 
 
 
