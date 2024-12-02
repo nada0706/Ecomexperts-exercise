@@ -57,7 +57,8 @@
 }
 
 .giftbtn-text:hover {
-  
+  background-color: black;
+  color: white;
 }
 
 .shopbtn-text {
