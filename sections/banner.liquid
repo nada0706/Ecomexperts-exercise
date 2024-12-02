@@ -18,13 +18,13 @@
     <div class="banner-section-1">
       <div class="banner-logo">
         <div class="mobile-dropdown">
-          <button class="dropbtn">
+          <button class="dropbtn" onclick="dropDown()">
             <span class="dropbtn-icon">
               {{- 'mobile-dropdown.svg' | inline_asset_content -}}
             </span>
           </button>
           <div class="dropdown-content">
-            <div class="dropdown-exit">
+            <div class="dropdown-exit" onclick="dropDownClose()">
               {{- 'icon-exit.svg' | inline_asset_content -}}
             </div>
             <div class="dropdown-item">
