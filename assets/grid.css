@@ -10,3 +10,9 @@
   position: relative;
   width: 100%;
 }
+
+.icon-popup {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
