@@ -1,0 +1,15 @@
+.banner {
+  color: black;
+  font-family: jost_n4;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.banner-section-1 {
+  align-items: center;
+  background-color: rgba(245, 245, 245, 1);
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  justify-content: space-between;
+}
