@@ -18,7 +18,9 @@
       {{ block.settings.grid-title }}
     </div>
     <div>
-      <img class="gird-image" src="{{ block.settings.grid-image | file_img_url: 'master' }}" width="50px" height="50px">
+      <div class="gird-image">
+        {{ block.settings.grid-image }}
+      </div>
       <div class="icon-popup" onclick="openPopup()">
         {{- 'icon-popup.svg' | inline_asset_content -}}
       </div>
