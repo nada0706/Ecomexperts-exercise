@@ -25,6 +25,10 @@
   width: 311px;
 }
 
+.popup-window .show {
+  visibility: visible;
+}
+
 .popup-exit {
   height: 20px;
   position: absolute;
@@ -33,9 +37,7 @@
   width: 20px;
 }
 
-.popup-window .show {
-  visibility: visible;
-}
+
 
 
 
