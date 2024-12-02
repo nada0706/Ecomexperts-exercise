@@ -13,3 +13,8 @@
   height: 45px;
   justify-content: space-between;
 }
+
+.banner-image {
+  height: auto;
+  max-width: 100%;
+}
