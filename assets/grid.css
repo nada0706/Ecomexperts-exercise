@@ -37,7 +37,11 @@
   width: 20px;
 }
 
-
+.popup-images {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
 
 
 
