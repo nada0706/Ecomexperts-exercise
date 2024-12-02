@@ -57,15 +57,15 @@
 }
 
 .product-title {
-  
+  flex: 1;
 }
 
 .product-price {
-  
+  flex: 1;
 }
 
 .product-description {
-  
+  flex: 1;
 }
 
 .product-color {
