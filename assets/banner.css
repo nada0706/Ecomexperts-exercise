@@ -64,7 +64,12 @@
 }
 
 .shopbtn-text {
-  
+  background-color: black;
+  color: white;
+  height: 44px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 207px;
 }
 
 
