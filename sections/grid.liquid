@@ -34,7 +34,9 @@
           {% form 'product', product %}
             <div class="product-variants">
               <select name="id">
-                
+                {% for variant in product.variants %}
+                  
+                {% endfor %}
               </select>
             </div>
           {% endform %}
