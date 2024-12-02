@@ -18,3 +18,31 @@
   height: auto;
   max-width: 100%;
 }
+
+.banner-section-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-subsection-3 {
+  align-items: left;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.paragraph-text: {
+  
+}
+
+
+
+
+
+
+
+
