@@ -36,10 +36,13 @@
               <select name="id">
                 {% for variant in product.variants %}
                   <option value="{{ variant.id }}">
-                    
+                    {{ variant.title }}
                   </option>
                 {% endfor %}
               </select>
+              <button>
+                
+              </button>
             </div>
           {% endform %}
         {% endfor %}
