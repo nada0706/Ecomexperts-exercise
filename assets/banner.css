@@ -112,6 +112,10 @@
     position: relative;
     visibility: hidden;
   }
+
+  .dropdown-content .show {
+    visibility: visible;
+  }
 }
 
 
