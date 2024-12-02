@@ -35,7 +35,9 @@
             <div class="product-variants">
               <select name="id">
                 {% for variant in product.variants %}
-                  
+                  <option value="{{ variant.id }}">
+                    
+                  </option>
                 {% endfor %}
               </select>
             </div>
