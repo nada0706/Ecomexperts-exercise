@@ -24,7 +24,7 @@
     </div>
     <div class="product-popup">
       <span class="popup-window" id="productPopup">
-        <div class="popup-exit">
+        <div class="popup-exit" onclick="closePopup()">
           {{- 'icon-exit.svg' | inline_asset_content -}}
         </div>
         {% for product in product %}
