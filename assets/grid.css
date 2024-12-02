@@ -93,7 +93,7 @@
 
 @media (max-width: 750px) {
   .product-grid {
-    
+    grid-template-columns: 1fr 1fr;
   }
 }
 
