@@ -98,7 +98,20 @@
     visibility: visible;
   }
 
-  
+  .dropbtn {
+    background-color: rgba(247, 247, 247, 1);
+    border: none;
+  }
+
+  .dropdown-content {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    margin-top: 0;
+    position: relative;
+    visibility: hidden;
+  }
 }
 
 
