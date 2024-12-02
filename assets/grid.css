@@ -97,6 +97,12 @@
   }
 }
 
+@media (min-width: 751px) {
+  .product-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 
 
 
