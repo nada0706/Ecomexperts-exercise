@@ -75,7 +75,9 @@
 }
 
 .shopbtn-text:hover {
-  
+  background-color: rgba( 255, 245, 8, 1);
+  border: none;
+  color: black;
 }
 
 
