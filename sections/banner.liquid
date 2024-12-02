@@ -1,5 +1,12 @@
 {{ 'banner.css' | asset_url | stylesheet_tag }}
 
+{% javascript %}
+  function dropDown() {
+    var dropdown = document.getElementById("dropdown-content");
+    dropdown.classList.toggle("show");
+  }
+{% endjavascript %}
+
 <div class="banner">
   {% for block in section.blocks %}
     <!-- first section of the banner  -->
