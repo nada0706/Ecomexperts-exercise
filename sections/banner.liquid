@@ -1,3 +1,5 @@
+{{ 'banner.css' | asset_url | stylesheet_tag }}
+
 <div class="banner">
   <!-- first section of the banner  -->
   {% for block in section.blocks %}
@@ -21,7 +23,7 @@
               </div>
             </div>
             <div class="dropdown-item">
-              <button class="button-text">
+              <button class="giftbtn-text">
                 {{ block.settings.banner-button-text }}
                 <span class="arrow-svg-wrapper">
                   {{- 'button-arrow.svg' | inline_asset_content -}}
@@ -40,7 +42,7 @@
         </h1>
       </div>
       <div class="banner-button">
-        <button class="button-text">
+        <button class="shopbtn-text">
           {{ block.settings.banner-button-text }}
           <span class="arrow-svg-wrapper">
             {{- 'button-arrow.svg' | inline_asset_content -}}
