@@ -1,5 +1,16 @@
 {{ 'grid.css' | asset_url | stylesheet_tag }}
 
+{% javascript %}
+  function openPopup() {
+    var dropdown = document.getElementById("dropdown-content");
+    dropdown.classList.toggle("show");
+  }
+
+  function closePopup() {
+    var dropdown = document.getElementById("dropdown-content");
+    dropdown.classList.remove("show");
+  }
+{% endjavascript %}
 
 <h1>Tisso Vison in the wild</h1>
 
