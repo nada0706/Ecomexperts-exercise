@@ -116,6 +116,16 @@
   .dropdown-content .show {
     visibility: visible;
   }
+
+  .dropdown-item {
+    text-align: center;
+  }
+
+  .dropdown-exit {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+  }
 }
 
 
