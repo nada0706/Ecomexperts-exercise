@@ -81,6 +81,8 @@
 }
 
 .banner-logo {
+  align-items: center;
+  display: flex;
   font-size: 19px;
 }
 
