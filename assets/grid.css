@@ -96,7 +96,7 @@
 }
 
 .product-popup {
-  visibility: hidden;
+  visibility: visible;
   position: absolute;
 }
 
