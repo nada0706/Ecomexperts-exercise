@@ -17,6 +17,8 @@
   width: 20px;
   margin-left: 100px;
   margin-top: -90px;
+  position: relative;
+  z-index: 100;
 }
 
 .icon-popup > svg {
