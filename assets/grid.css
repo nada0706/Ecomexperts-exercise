@@ -25,6 +25,9 @@
   align-items: center;
   width: 20px;
   height: 20px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
 }
 
 .icon-popup > svg {
