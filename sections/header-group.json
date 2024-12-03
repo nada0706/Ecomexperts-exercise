@@ -54,6 +54,29 @@
         "padding_bottom": 20
       }
     },
+    "banner_8e9aDM": {
+      "type": "banner",
+      "blocks": {
+        "text_7VeYiJ": {
+          "type": "text",
+          "settings": {
+            "banner-logo": "Tisso Vison",
+            "banner-title": "Find the ideal gift for your loved ones.",
+            "banner-giftbutton-text": "choose gift",
+            "banner-giftbutton-url": "shopify://collections/all",
+            "banner-title-2": "The Gift Guide",
+            "banner-paragraph": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
+            "banner-shoptbutton-text": "shop now",
+            "banner-shopbutton-url": "shopify://products/black-leather-bag",
+            "banner-section-4": "SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL"
+          }
+        }
+      },
+      "block_order": [
+        "text_7VeYiJ"
+      ],
+      "settings": {}
+    },
     "grid_kHAn7r": {
       "type": "grid",
       "blocks": {
@@ -102,39 +125,15 @@
         "image_picker_Tgtmyz",
         "image_picker_jgFegy"
       ],
-      "disabled": true,
       "settings": {
         "grid-title": "Tisso Vison in the wild"
       }
-    },
-    "banner_8e9aDM": {
-      "type": "banner",
-      "blocks": {
-        "text_7VeYiJ": {
-          "type": "text",
-          "settings": {
-            "banner-logo": "Tisso Vison",
-            "banner-title": "Find the ideal gift for your loved ones.",
-            "banner-giftbutton-text": "choose gift",
-            "banner-giftbutton-url": "shopify://collections/all",
-            "banner-title-2": "The Gift Guide",
-            "banner-paragraph": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
-            "banner-shoptbutton-text": "shop now",
-            "banner-shopbutton-url": "shopify://products/black-leather-bag",
-            "banner-section-4": "SUSTAINABLE, ETHICALLY MADE CLOTHES IN SIZES XXS TO 6XL"
-          }
-        }
-      },
-      "block_order": [
-        "text_7VeYiJ"
-      ],
-      "settings": {}
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "grid_kHAn7r",
-    "banner_8e9aDM"
+    "banner_8e9aDM",
+    "grid_kHAn7r"
   ]
 }
