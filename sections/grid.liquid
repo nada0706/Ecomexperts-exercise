@@ -20,7 +20,7 @@
   {% for block in section.blocks %}
     <div>
       <div class="grid-image">
-        {{ block.settings.grid-image | image_url }}
+        {{ section.settings.grid-image | image_url }}
       </div>
       <div class="arrow-svg-wrapper" onclick="openPopup()">
         {{- 'icon-popup.svg' | inline_asset_content -}}
