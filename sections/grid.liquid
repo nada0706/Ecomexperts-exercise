@@ -17,6 +17,7 @@
     </h1>
 
 <div class="product-grid">
+  {% for block in section.blocks %}
     <div>
       <img class="grid-image" src="{{ section.settings.grid-image | image_url }}" width="100px" height="100px">
       <div class="icon-popup arrow-svg-wrapper" onclick="openPopup()">
@@ -65,6 +66,7 @@
         {% endfor %}
       </span>
     </div>
+  {% endfor %}
 </div>
 
 {% schema %}
