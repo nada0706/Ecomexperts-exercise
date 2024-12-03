@@ -96,6 +96,7 @@
 
 .product-popup {
   visibility: hidden;
+  position: absolute;
 }
 
 .product-popup .show {
