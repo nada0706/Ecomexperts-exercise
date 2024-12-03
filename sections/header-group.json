@@ -106,11 +106,32 @@
       "settings": {
         "grid-title": "Tisso Vison in the wild"
       }
+    },
+    "banner_8e9aDM": {
+      "type": "banner",
+      "blocks": {
+        "text_7VeYiJ": {
+          "type": "text",
+          "settings": {
+            "banner-logo": "Tisso Vison",
+            "banner-title": "Find the ideal gift for your loved ones.",
+            "banner-giftbutton-text": "choose gift",
+            "banner-giftbutton-url": "shopify://collections/all",
+            "banner-shoptbutton-text": "shop now",
+            "banner-shopbutton-url": "shopify://products/black-leather-bag"
+          }
+        }
+      },
+      "block_order": [
+        "text_7VeYiJ"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "grid_kHAn7r"
+    "grid_kHAn7r",
+    "banner_8e9aDM"
   ]
 }
