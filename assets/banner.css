@@ -94,6 +94,10 @@
   padding-left: 15px;
 }
 
+.mobile-dropdown {
+  width: 40px;
+}
+
 @media (max-width: 750px) {
   .mobile-dropdown {
     margin-top: 85px;
