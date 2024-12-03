@@ -29,7 +29,8 @@
 .popup-window {
   background-color: rgba(255, 255, 255, 1);
   height: 447px;
-  position: relative;
+  margin-left: 300px;
+  position: absolute;
   visibility: hidden;
   width: 311px;
 }
