@@ -12,17 +12,7 @@
   z-index: 1;
 }
 
-/* .icon-popup {
-  position: absolute;
-  right: 30px;
-  top: 10px;
-  z-index: 100;
-} */
-
 .icon-popup {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   width: 20px;
   height: 20px;
 }
