@@ -66,18 +66,18 @@
 }
 
 .shopbtn-text {
+  background-color: rgba( 255, 245, 8, 1);
+  border: none;
+  color: black;
+}
+
+.shopbtn-text:hover {
   background-color: black;
   color: white;
   height: 44px;
   text-align: center;
   text-transform: uppercase;
   width: 207px;
-}
-
-.shopbtn-text:hover {
-  background-color: rgba( 255, 245, 8, 1);
-  border: none;
-  color: black;
 }
 
 .banner-logo {
