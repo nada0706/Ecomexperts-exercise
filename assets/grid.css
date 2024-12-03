@@ -6,9 +6,9 @@
 }
 
 .grid-image {
-  height: auto;
+  height: 400px;
   position: relative;
-  width: 100%;
+  width: 400px;
   z-index: 1;
 }
 
