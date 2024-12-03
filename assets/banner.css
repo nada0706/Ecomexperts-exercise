@@ -33,6 +33,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-left: 45px;
 }
 
 .banner-title-2 {
