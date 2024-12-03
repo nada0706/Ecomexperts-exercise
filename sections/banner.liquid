@@ -81,14 +81,14 @@
             {{- 'button-arrow-white.svg' | inline_asset_content -}}
           </span>
         </button>
-    <!-- final section of the banner with clothes characteristics -->
-        <div>
-          <h1 class="banner-section-4">
-            {{ block.settings.banner-section-4 }}
-          </h1>
-      </div>
       </div>
       <img class="second-banner-image" src="{{ 'image-banner.svg' | asset_url }}" width="" height="">
+      <!-- final section of the banner with clothes characteristics -->
+      <div>
+        <h1 class="banner-section-4">
+          {{ block.settings.banner-section-4 }}
+        </h1>
+      </div>
     </div>
   {% endfor %}
 </div>
