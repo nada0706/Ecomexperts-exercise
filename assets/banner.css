@@ -35,6 +35,10 @@
   justify-content: space-between;
 }
 
+.banner-title-2 {
+  margin-top: 0;
+}
+
 .paragraph-text: {
   font-size: 20px;
 }
