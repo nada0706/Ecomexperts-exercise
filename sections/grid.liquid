@@ -18,9 +18,7 @@
 
 <div class="product-grid">
     <div>
-      <div class="grid-image">
-        {{ section.settings.grid-image | image_url }}
-      </div>
+      <img class="grid-image" src="{{ section.settings.grid-image | image_url }}" width="100px" height="100px">
       <div class="arrow-svg-wrapper" onclick="openPopup()">
         {{- 'icon-popup.svg' | inline_asset_content -}}
       </div>
@@ -67,8 +65,6 @@
         {% endfor %}
       </span>
     </div>
-
-  
 </div>
 
 {% schema %}
