@@ -98,6 +98,7 @@
 .product-popup {
   visibility: visible;
   position: absolute;
+  z-index: 100px;
 }
 
 .product-popup .show {
