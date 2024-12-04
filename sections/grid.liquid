@@ -1,14 +1,8 @@
 {{ 'grid.css' | asset_url | stylesheet_tag }}
 
 {% javascript %}
-  function openPopup() {
-    var popup = document.getElementById("productPopup");
-    popup.classList.toggle("show");
-  }
-
-  function closePopup() {
-    var popup = document.getElementById("productPopup");
-    popup.classList.remove("show");
+  function togglePopup() {
+    document.getElementById("popup-1").classList.toggle("active");
   }
 {% endjavascript %}
 
