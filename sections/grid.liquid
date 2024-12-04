@@ -15,10 +15,41 @@
           <div class="close-btn" onClick="togglePopup()">
             {{- 'icon-exit.svg' | inline_asset_content -}}
           </div>
-          <h1>
-            Title
-          </h1>
-          <p>gfhhgjhj</p>
+          {% for product in product.available %}
+          <div class="popup-images">
+            <div class="popup-image">
+              <img src="{{ product.featured_image | image_url }}" width="50px" height="50px">
+            </div>
+            <div class="product-info">
+              <span class="product-title">
+                {{ product.title }}
+              </span>
+              <span class="product-price">
+                {{ product.price | money }}
+              </span>
+              <span class="product-description">
+                {{ product.description }}
+              </span>
+            </div>
+          </div>
+          {% form 'product', product %}
+            <div class="product-variants">
+              <select name="id">
+                {% for variant in product.variants %}
+                  <option value="{{ variant.id }}">
+                    {{ variant.title }}
+                  </option>
+                {% endfor %}
+              </select>
+              <button type="submit" class="addToCart-btn">
+                Add To Cart
+                <span class="arrow-svg-wrapper">
+                  {{- 'button-arrow.svg' | inline_asset_content -}}
+                </span>
+              </button>
+            </div>
+          {% endform %}
+        {% endfor %}
         </div>
       </div>
       <div class="icon-popup arrow-svg-wrapper" onClick="togglePopup()">
