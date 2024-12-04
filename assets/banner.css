@@ -96,11 +96,11 @@
 }
 
 .arrow-1 .arrow2:hover {
-  visibility: visible;
+  display: block;
 }
 
 .arrow-1:hover .arrow-2 {
-  visibility: hidden;
+  display: none;
 }
 
 .banner-logo {
