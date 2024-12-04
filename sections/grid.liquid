@@ -1,7 +1,7 @@
 {{ 'grid.css' | asset_url | stylesheet_tag }}
 
 {% javascript %}
-  function togglePopup() {
+  document.getElementById("popup-1").onclick = togglePopup () {
     document.getElementById("popup-1").classList.toggle("active");
   }
 {% endjavascript %}
@@ -14,19 +14,19 @@
   {% for block in section.blocks %}
     <div>
       <img class="grid-image" src="{{ block.settings.grid-image | image_url }}" width="100px" height="100px">
+      <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+          X
+          <h1>
+            Title
+          </h1>
+          <p>gfhhgjhj</p>
+        </div>
+      </div>
+      <button onClick="togglePopup()">Show Popup</button>
     </div>
   {% endfor %}
-  <div class="popup" id="popup-1">
-    <div class="overlay"></div>
-    <div class="content">
-      X
-      <h1>
-        Title
-      </h1>
-      <p>gfhhgjhj</p>
-    </div>
-  </div>
-  <button onClick="togglePopup()">Show Popup</button>
 </div>
 
 {% schema %}
