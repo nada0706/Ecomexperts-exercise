@@ -95,22 +95,6 @@
   color: black;
 }
 
-.arrow-1 {
-  display: inline;
-}
-
-.arrow-1:hover {
-  display: none;
-}
-
-#arrow-2 {
-  display: none;
-}
-
-#arrow-2:hover {
-  display: relative;
-}
-
 .banner-logo {
   align-items: center;
   display: flex;
