@@ -108,7 +108,7 @@
 }
 
 .arrow2:hover {
-  display: inline !important ;
+  display: absolute;
 }
 
 .banner-logo {
