@@ -103,11 +103,11 @@
   display: none;
 }
 
-.arrow-2 {
+#arrow-2 {
   display: none;
 }
 
-.arrow2:hover {
+#arrow-2:hover {
   display: relative;
 }
 
