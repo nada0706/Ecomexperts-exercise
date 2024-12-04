@@ -95,7 +95,11 @@
   color: black;
 }
 
-.arrow-1 .arrow2:hover {
+.arrow-1 {
+  display: block;
+}
+
+.arrow2:hover {
   display: block;
 }
 
