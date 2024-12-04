@@ -124,7 +124,6 @@
 }
 
 
-
 .popup .overlay {
   position: fixed;
   top: 0px;
@@ -162,9 +161,6 @@
 .popup.active .content {
   transform: translate(-50%, -50%) scale(1);
 }
-
-
-
 
 
 
