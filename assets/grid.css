@@ -148,8 +148,7 @@
 .popup .close-btn {
   cursor: pointer;
   position: absolute;
-  right: 20px;
-  visibility: hidden;
+  left: 20px;
 }
 
 .popup.active .overlay {
