@@ -103,7 +103,11 @@
   display: block;
 }
 
-.arrow-1:hover .arrow-2 {
+.arrow-1:hover {
+  display: none;
+}
+
+.arrow-2 {
   display: none;
 }
 
