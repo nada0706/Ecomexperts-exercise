@@ -21,7 +21,11 @@
           <p>gfhhgjhj</p>
         </div>
       </div>
-      <button onClick="togglePopup()">Show Popup</button>
+      <button onClick="togglePopup()">
+        <div class="icon-popup arrow-svg-wrapper">
+          {{- 'icon-popup.svg' | inline_asset_content -}}
+        </div>
+      </button>
     </div>
   {% endfor %}
 </div>
