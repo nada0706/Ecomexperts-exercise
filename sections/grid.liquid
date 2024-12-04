@@ -1,10 +1,5 @@
 {{ 'grid.css' | asset_url | stylesheet_tag }}
-
-{% javascript %}
-  function togglePopup() {
-    document.getElementById("popup-1").classList.toggle("active");
-  }
-{% endjavascript %}
+<script src="{{ 'grid.js' | asset_url }}" defer="defer"></script>
 
 <h1 class="grid-title">
       {{ section.settings.grid-title }}
