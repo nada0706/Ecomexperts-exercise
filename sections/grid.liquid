@@ -21,11 +21,9 @@
           <p>gfhhgjhj</p>
         </div>
       </div>
-      <button class="icon-popup arrow-svg-wrapper" onClick="togglePopup()">
-        <div>
-          {{- 'icon-popup.svg' | inline_asset_content -}}
-        </div>
-      </button>
+      <div class="icon-popup arrow-svg-wrapper" onClick="togglePopup()">
+        {{- 'icon-popup.svg' | inline_asset_content -}}
+      </div>
     </div>
   {% endfor %}
 </div>
