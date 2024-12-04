@@ -77,9 +77,13 @@
         </p>
         <button class="shopbtn-text">
           {{ block.settings.banner-shoptbutton-text }}
-          <span class="arrow-svg-wrapper">
+          <span class="arrow-svg-wrapper arrow-1">
             {{- 'button-arrow-white.svg' | inline_asset_content -}}
           </span>
+          <span class="arrow-svg-wrapper arrow-2">
+            {{- 'button-arrow.svg' | inline_asset_content -}}
+          </span>
+          
         </button>
       </div>
       <img class="second-banner-image" src="{{ 'second-banner-image.svg' | asset_url }}" width="" height="">
