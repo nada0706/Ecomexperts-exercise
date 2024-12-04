@@ -75,12 +75,12 @@
         <p class="paragraph-text">
           {{ block.settings.banner-paragraph }}
         </p>
-        <a class="shopbtn-text" href="{{ block.settings.banner-shoptbutton-url}}">
+        <button class="shopbtn-text">
           {{ block.settings.banner-shoptbutton-text }}
           <span class="arrow-svg-wrapper">
             {{- 'button-arrow-white.svg' | inline_asset_content -}}
           </span>
-        </a>
+        </button>
       </div>
       <img class="second-banner-image" src="{{ 'second-banner-image.svg' | asset_url }}" width="" height="">
     </div>
