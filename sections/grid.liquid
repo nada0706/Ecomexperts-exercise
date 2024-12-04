@@ -1,7 +1,7 @@
 {{ 'grid.css' | asset_url | stylesheet_tag }}
 
 {% javascript %}
-  function togglePopup () {
+  function togglePopup() {
     document.getElementById("popup-1").classList.toggle("active");
   }
 {% endjavascript %}
@@ -24,7 +24,7 @@
           <p>gfhhgjhj</p>
         </div>
       </div>
-      <button onClick="togglePopup ()">Show Popup</button>
+      <button onClick="togglePopup()">Show Popup</button>
     </div>
   {% endfor %}
 </div>
