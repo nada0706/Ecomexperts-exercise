@@ -95,6 +95,22 @@
   color: black;
 }
 
+.arrow-1 {
+  opacity: 1;
+}
+
+.arrow-1:hover {
+  opacity: 0;
+}
+
+.arrow-2 {
+  opacity: 0;
+}
+
+.arrow-2:hover {
+  opacity: 1;
+}
+
 .banner-logo {
   align-items: center;
   display: flex;
