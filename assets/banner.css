@@ -95,6 +95,14 @@
   color: black;
 }
 
+.arrow-1 .arrow2:hover {
+  visibility: visible;
+}
+
+.arrow-1:hover .arrow-2 {
+  visibility: hidden;
+}
+
 .banner-logo {
   align-items: center;
   display: flex;
