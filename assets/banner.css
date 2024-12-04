@@ -95,10 +95,6 @@
   color: black;
 }
 
-.arrow:hover {
-  filter: grayscale(100%);
-}
-
 .banner-logo {
   align-items: center;
   display: flex;
