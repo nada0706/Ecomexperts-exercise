@@ -108,7 +108,7 @@
 }
 
 .arrow2:hover {
-  display: contents !important;
+  display: relative;
 }
 
 .banner-logo {
