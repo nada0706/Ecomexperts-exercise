@@ -99,16 +99,16 @@
   display: inline;
 }
 
-.arrow2:hover {
-  display: inline;
-}
-
 .arrow-1:hover {
   display: none;
 }
 
 .arrow-2 {
   display: none;
+}
+
+.arrow2:hover {
+  display: inline;
 }
 
 .banner-logo {
