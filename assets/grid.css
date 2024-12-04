@@ -136,16 +136,12 @@
 }
 
 .popup .content {
+  background-color: rgba(255, 255, 255, 1);
+  height: 447px;
+  margin-left: 300px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(0);
-  background-color: #fff;
-  width: 450px;
-  height: 220px;
-  z-index: 2;
-  text-align: center;
-  padding: 20px;
+  visibility: visible;
+  width: 311px;
 }
 
 .popup .close-btn {
