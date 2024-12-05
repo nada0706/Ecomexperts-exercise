@@ -161,6 +161,10 @@
     position: absolute;
   }
 
+  .banner-title-2 {
+    font-size: 30px;
+  }
+
   .second-banner-image {
     position: relative;
     width: 350px;
