@@ -18,14 +18,13 @@
     <!-- first section of the banner  -->
     <div class="banner-section-1">
       <div class="mobile-dropdown">
-          <button class="dropbtn" onclick="dropDown()">
-            <span class="dropbtn-icon">
-              {{- 'icon-mobile-dropdown.svg' | inline_asset_content -}}
-            </span>
-          </button>
-          <div class="dropdown-content">
-            <div class="dropdown-exit" onclick="dropDownClose()">
-              {{- 'icon-exit.svg' | inline_asset_content -}}
+        <div class="popup" id="popup-1">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup()">
+              <div class="dropdown-exit">
+                {{- 'icon-exit.svg' | inline_asset_content -}}
+              </div>
             </div>
             <div class="dropdown-item">
               <div class="banner-title">
@@ -43,6 +42,12 @@
               </button>
             </div>
           </div>
+       </div>
+       <button onclick="togglePopup()">
+         <span class="dropbtn-icon">
+           {{- 'icon-mobile-dropdown.svg' | inline_asset_content -}}
+         </span>
+       </button>
       </div>
       <div class="banner-logo">
         <div class="banner-logo-text">
