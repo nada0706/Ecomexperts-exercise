@@ -157,6 +157,10 @@
   .second-banner-image {
     width: 350px;
   }
+
+  .banner-section-4 {
+    display: none;
+  }
   
   .mobile-dropdown {
     margin-top: 42px;
@@ -208,5 +212,9 @@
 @media (min-width: 751px) {
   .mobile-dropdown {
     visibility: hidden;
+  }
+
+  .mobile-banner-section-4 {
+    display: none;
   }
 }
