@@ -150,6 +150,10 @@
     display: none;
   }
 
+  .banner-section-3 {
+    flex-direction: column;
+  }
+
   .banner-subsection-3 {
     display: visible;
   }
