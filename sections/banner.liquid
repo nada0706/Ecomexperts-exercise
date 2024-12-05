@@ -16,8 +16,7 @@
   {% for block in section.blocks %}
     <!-- first section of the banner  -->
     <div class="banner-section-1">
-      <div class="banner-logo">
-        <div class="mobile-dropdown">
+      <div class="mobile-dropdown">
           <button class="dropbtn" onclick="dropDown()">
             <span class="dropbtn-icon">
               {{- 'mobile-dropdown.svg' | inline_asset_content -}}
@@ -43,7 +42,8 @@
               </button>
             </div>
           </div>
-        </div>
+      </div>
+      <div class="banner-logo">
         <div class="banner-logo-text">
           {{ block.settings.banner-logo }}
         </div>
