@@ -121,7 +121,7 @@
   }
 
   .popup.active .content {
-  transform: translate(10%, -80%) scale(1)
+  transform: translate(10%, -80%) scale(1);
 }
 
 @media (min-width: 751px) {
