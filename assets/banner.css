@@ -151,14 +151,18 @@
   }
 
   .banner-section-3 {
+    align-items: center;
     flex-direction: column;
+    text-align: center;
   }
 
   .banner-subsection-3 {
     display: visible;
+    position: absolute;
   }
 
   .second-banner-image {
+    position: relative;
     width: 350px;
   }
 
