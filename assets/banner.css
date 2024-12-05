@@ -155,6 +155,7 @@
   }
 
   .second-banner-image {
+    display: relative;
     width: 350px;
   }
 
