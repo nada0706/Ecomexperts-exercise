@@ -12,6 +12,7 @@
   flex-direction: row;
   height: 45px;
   justify-content: space-between;
+  max-width: 1400px;
 }
 
 .banner-image {
