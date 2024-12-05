@@ -127,17 +127,14 @@
   }
   
   .mobile-dropdown {
-    margin-top: 85px;
+    margin-top: 45px;
     visibility: visible;
   }
 
   .dropbtn-icon {
   /* height: 20px;
   width: 20px;
-  margin-left: 350px;
-  margin-top: -170px;
-  position: absolute;
-  z-index: 10; */
+
 }
 
 .dropbtn-icon > svg {
