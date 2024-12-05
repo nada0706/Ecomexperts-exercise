@@ -134,6 +134,10 @@
   .banner-section-1 {
     justify-content: space-between;
   }
+
+  .banner-image {
+    display: none;
+  }
   
   .mobile-dropdown {
     margin-top: 42px;
