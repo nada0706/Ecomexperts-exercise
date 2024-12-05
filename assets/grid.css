@@ -1,12 +1,12 @@
 .product-grid {
-  column-gap: 19px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 12px;
 }
 
 .grid-image {
   height: auto;
+  padding-bottom: 10px;
+  padding-right: 10px;
   position: relative;
   width: 100%;
   z-index: 1;
