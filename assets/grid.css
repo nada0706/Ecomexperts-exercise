@@ -111,7 +111,7 @@
   }
 
   .popup.active .content {
-  transform: translate(10%, -80%) scale(1);
+  transform: translate(4%, -80%) scale(1);
   }
 }
 
