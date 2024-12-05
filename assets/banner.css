@@ -129,6 +129,10 @@
     display: none;
   }
 
+  .mobile-banner-title {
+    display: block;
+  }
+
   .banner-logo {
     flex: 1;
     justify-content: center;
