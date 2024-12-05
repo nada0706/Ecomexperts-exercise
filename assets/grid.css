@@ -103,6 +103,10 @@
 }
 
 @media (max-width: 750px) {
+  .grid-title {
+    text-align: center;
+  }
+  
   .product-grid {
     grid-template-columns: 1fr 1fr;
   }
