@@ -114,6 +114,14 @@
 }
 
 @media (max-width: 750px) {
+  .banner-title {
+    display: none;
+  }
+
+  .banner-button {
+    display: none;
+  }
+  
   .mobile-dropdown {
     margin-top: 85px;
     visibility: visible;
