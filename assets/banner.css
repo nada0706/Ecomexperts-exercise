@@ -227,10 +227,12 @@
   }
 
   .mobile-title {
+    font-size: 30px;
     visibility: hidden;
   }
 
   .mobile-paragraph {
+    font-size: 14px;
     visibility: hidden;
   }
 }
