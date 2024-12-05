@@ -229,11 +229,6 @@
     top: 380px;
     visibility: visible;
   }
-
-  .mobile-banner-title {
-    text-align: center;
-    
-  }
 }
 
 @media (min-width: 751px) {
