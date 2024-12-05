@@ -121,6 +121,10 @@
   .banner-button {
     display: none;
   }
+
+  .banner-section-1 {
+    justify-content: center;
+  }
   
   .mobile-dropdown {
     margin-top: 85px;
