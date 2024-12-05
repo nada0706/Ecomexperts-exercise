@@ -92,16 +92,6 @@
   width: 100%;
 }
 
-.product-popup {
-  visibility: visible;
-  position: absolute;
-  z-index: 100;
-}
-
-.product-popup .show {
-  visibility: visible;
-}
-
 @media (max-width: 750px) {
   .grid-title {
     text-align: center;
@@ -129,6 +119,15 @@
   .product-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .popup.active .content {
+  transform: translate(100%, -90%) scale(1);
+  visibility: visible;
+}
+
+  .popup .content {
+    margin-left: 300px;
+  }
 }
 
 
@@ -146,7 +145,6 @@
 .popup .content {
   background-color: rgba(255, 255, 255, 1);
   height: 447px;
-  margin-left: 300px;
   position: absolute;
   visibility: hidden;
   width: 311px;
@@ -164,11 +162,6 @@
 
 .popup.active .overlay {
   display: block;
-}
-
-.popup.active .content {
-  transform: translate(100%, -90%) scale(1);
-  visibility: visible;
 }
 
 
