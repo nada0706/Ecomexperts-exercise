@@ -110,6 +110,11 @@
   .product-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .icon-popup {
+    margin-left: 90px;
+    margin-top: -115px;
+  }
 }
 
 @media (min-width: 751px) {
