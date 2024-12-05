@@ -60,6 +60,17 @@
   text-align: center;
 }
 
+.mobile-banner-section-4 {
+  background-color: rgba(245, 245, 245, 1);
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 .second-banner-image {
   flex: 2;
 }
