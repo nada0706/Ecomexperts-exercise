@@ -150,27 +150,11 @@
     display: none;
   }
 
-  .banner-section-3 {
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-  }
-
   .banner-subsection-3 {
-    display: visible;
-    position: absolute;
+    display: none;
   }
-
-  .banner-title-2 {
-    font-size: 30px;
-  }
-
-  .paragraph-text {
-    font-size: 16px;
-}
 
   .second-banner-image {
-    position: relative;
     width: 350px;
   }
 
