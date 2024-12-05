@@ -223,7 +223,9 @@
   }
 
   .mobile-btn {
+    left: 80px;
     position: absolute;
+    top: 380px;
     visibility: visible;
   }
 }
