@@ -260,10 +260,12 @@
   }
 
   .mobile-title {
+    display: none;
     visibility: hidden;
   }
 
   .mobile-paragraph {
+    display: none;
     visibility: hidden;
   }
 
