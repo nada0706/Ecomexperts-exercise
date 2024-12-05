@@ -234,6 +234,10 @@
     text-align: center;
     
   }
+
+  .popup.active .content {
+  transform: translate(-1%, -80%) scale(1);
+  }
 }
 
 @media (min-width: 751px) {
