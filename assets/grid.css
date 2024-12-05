@@ -121,6 +121,7 @@
 @media (min-width: 751px) {
   .product-grid {
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1400px;
   }
 
   .popup.active .content {
