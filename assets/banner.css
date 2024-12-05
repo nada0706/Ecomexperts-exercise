@@ -138,6 +138,10 @@
   .banner-image {
     display: none;
   }
+
+  .banner-subsection-3 {
+    display: none;
+  }
   
   .mobile-dropdown {
     margin-top: 42px;
