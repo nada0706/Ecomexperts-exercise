@@ -122,7 +122,6 @@
 
   .popup.active .content {
   transform: translate(100%, -90%) scale(1);
-  visibility: visible;
 }
 
   .popup .content {
@@ -162,6 +161,10 @@
 
 .popup.active .overlay {
   display: block;
+}
+
+.popup.active .content {
+  visibility: visible;
 }
 
 
