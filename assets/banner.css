@@ -238,15 +238,15 @@
     visibility: visible;
   }
 
-  .popup .content {
-  background-color: rgba(255, 255, 255, 1);
-  height: 200px;
-  position: absolute;
-  text-align: center;
-  visibility: hidden;
-  width: 350px;
-  z-index: 100;
-}
+  .banner-popup .content {
+    background-color: rgba(255, 255, 255, 1);
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+    width: 350px;
+    z-index: 100;
+  }
 }
 
 @media (min-width: 751px) {
