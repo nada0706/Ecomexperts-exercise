@@ -239,4 +239,8 @@
   .mobile-paragraph {
     visibility: hidden;
   }
+
+  .mobile-btn {
+    visibility: hidden;
+  }
 }
