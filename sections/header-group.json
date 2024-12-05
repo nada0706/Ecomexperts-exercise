@@ -62,7 +62,9 @@
           "settings": {
             "banner-logo": "Tisso Vison",
             "banner-title": "Find the ideal gift for your loved ones.",
+            "mobile-banner-title": "Find the ideal gift for your loved ones.",
             "banner-giftbutton-text": "choose gift",
+            "mobile-banner-giftbutton-text": "choose gift",
             "banner-giftbutton-url": "shopify://collections/all",
             "banner-title-2": "The Gift Guide",
             "banner-paragraph": "Discover Joy: Your Ultimate Holiday Gift Destination. Explore our curated selection and find the perfect gifts to delight your loved ones this holiday season.",
