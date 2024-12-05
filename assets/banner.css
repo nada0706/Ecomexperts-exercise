@@ -158,6 +158,14 @@
     width: 350px;
   }
 
+  .mobile-title {
+    visibility: visible;
+  }
+
+  .mobile-paragraph {
+    visibility: visible;
+  }
+
   .banner-section-4 {
     display: none;
   }
@@ -216,5 +224,13 @@
 
   .mobile-banner-section-4 {
     display: none;
+  }
+
+  .mobile-title {
+    visibility: hidden;
+  }
+
+  .mobile-paragraph {
+    visibility: hidden;
   }
 }

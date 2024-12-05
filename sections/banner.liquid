@@ -66,6 +66,14 @@
     <!-- second section of the banner with full image  -->
     <img class="banner-image" src="{{ 'image-banner.svg' | asset_url }}" width="" height="">
 
+    <!-- third section of the banner on mobile view -->
+     <h1 class="banner-title-2 mobile-title">
+          {{ block.settings.banner-title-2 }}
+        </h1>
+        <p class="paragraph-text mobile-paragraph">
+          {{ block.settings.banner-paragraph }}
+        </p>
+
     <!-- third section of the banner with title, paragraph, button, and image -->
     <div class="banner-section-3">
       <div class="banner-subsection-3">
