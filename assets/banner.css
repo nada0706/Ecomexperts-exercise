@@ -273,6 +273,23 @@
   z-index: 100;
 }
 
+.popup .close-btn {
+  cursor: pointer;
+  height: 12px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 12px;
+}
+
+.popup.active .overlay {
+  display: block;
+}
+
+.popup.active .content {
+  visibility: visible;
+}
+
 
 
 
