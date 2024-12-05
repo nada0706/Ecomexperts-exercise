@@ -142,6 +142,10 @@
   .banner-subsection-3 {
     display: none;
   }
+
+  .second-banner-image {
+    width: 350px;
+  }
   
   .mobile-dropdown {
     margin-top: 42px;
