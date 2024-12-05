@@ -237,6 +237,16 @@
     top: 380px;
     visibility: visible;
   }
+
+  .popup .content {
+  background-color: rgba(255, 255, 255, 1);
+  height: 200px;
+  position: absolute;
+  text-align: center;
+  visibility: hidden;
+  width: 350px;
+  z-index: 100;
+}
 }
 
 @media (min-width: 751px) {
@@ -270,16 +280,6 @@
   background: rgba(0, 0, 0,0.7);
   z-index: 100;
   display: none;
-}
-
-.popup .content {
-  background-color: rgba(255, 255, 255, 1);
-  height: 200px;
-  position: absolute;
-  text-align: center;
-  visibility: hidden;
-  width: 350px;
-  z-index: 100;
 }
 
 .popup .close-btn {
