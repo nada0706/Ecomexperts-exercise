@@ -1,6 +1,7 @@
 .product-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 10px;
 }
 
 .grid-image {
