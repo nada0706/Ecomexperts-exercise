@@ -91,6 +91,12 @@
         </button>
       </div>
       <img class="second-banner-image" src="{{ 'second-banner-image.svg' | asset_url }}" width="" height="">
+      <button class="shopbtn-text mobile-btn">
+          {{ block.settings.banner-shoptbutton-text }}
+          <span class="arrow-svg-wrapper">
+            {{- 'button-arrow-white.svg' | inline_asset_content -}}
+          </span>
+        </button>
     </div>
 
     <!-- final section of the banner with clothes characteristics -->
