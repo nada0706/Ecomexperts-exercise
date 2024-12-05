@@ -86,10 +86,13 @@
 .addToCart-btn {
   background-color: black;
   color: white;
+  display: block;
   height: 44px;
+  margin-bottom: 10px;
+  margin-left: 45px;
   text-align: center;
   text-transform: uppercase;
-  width: 100%;
+  width: 70%;
 }
 
 @media (max-width: 750px) {
